@@ -32,3 +32,19 @@ try {
 }
 
 ```
+
+
+// if .. else 
+
+```
+let userEmail;
+if(!userEmail){
+  console.log('Use Email')
+}else if(!userEmail.includes('@')){
+  console.log('Email must contains @')
+}
+
+
+
+
+```
