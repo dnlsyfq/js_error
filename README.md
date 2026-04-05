@@ -11,3 +11,24 @@ try {
 }
 
 ```
+
+// errors 
+
+syntax // semicolons , brackets
+runtime // infinity error
+logical // math error 
+user input // invalid data 
+
+// try ... catch 
+
+```
+let totalPrice = 15.99;
+
+try {
+    let avgPrice = totalPrice / numItem
+    console.log(`USD ${avgPrice}`)
+} catch(error){
+    console.log(`Error: ${error.message} `)
+}
+
+```
